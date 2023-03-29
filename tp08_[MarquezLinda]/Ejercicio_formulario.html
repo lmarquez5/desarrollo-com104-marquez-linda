@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Formulario</h1>
+    <h4>Datos personales</h4>
+        <label for=""> Nombre</label>
+            <INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="20"><br>
+        <label for=""> Apellido</label>
+            <INPUT TYPE="text" NAME="apellido" VALUE="" SIZE="20"><br>
+        <label for=""> Edad</label>
+        <INPUT TYPE="text" NAME="edad" VALUE="" SIZE="20"><br><br>
+    
+    <h4>Sexo</h4>
+    <SELECT NAME="Sexo">
+        <OPTION VALUE="M"> Masculino
+        <OPTION VALUE="F"> Femenino 
+        <OPTION VALUE="N"> Otro
+    </SELECT><br><br>
+    <h4>Rango de edad</h4>
+    <INPUT TYPE="radio" NAME="rango edad" VALUE="Menor"> Menor 18 años
+    <INPUT TYPE="radio" NAME="rango edad" VALUE="Mayor"> Mayor 18 años
+    <br>
+
+    <h4>Idiomas</h4>
+    <SELECT SIZE="4" NAME="idiomas[]" MULTIPLE>
+        <OPTION VALUE="ingles">Inglés
+        <OPTION VALUE="frances">Francés
+        <OPTION VALUE="aleman">Alemán
+        <OPTION VALUE="holandes">Holandés
+    </SELECT><br>
+
+    <h4>Extras</h4>
+    <INPUT TYPE="checkbox" NAME="extras[]" VALUE="auto"> Auto
+    <INPUT TYPE="checkbox" NAME="extras[]" VALUE="camioneta"> Camioneta
+    <INPUT TYPE="checkbox" NAME="extras[]" VALUE="camion"> Camión
+    <br>
+    
+    <h4>Comentarios</h4>
+    <TEXTAREA COLS=“30” ROWS=“10” NAME="comentario">
+        Comentario...
+    </TEXTAREA>
+    <br>
+    <INPUT TYPE="button" NAME="enviar" VALUE="Enviar Datos">
+    <INPUT TYPE="button" NAME="borrar" VALUE="Borrar Datos">
+        
+</body>
+</html>
