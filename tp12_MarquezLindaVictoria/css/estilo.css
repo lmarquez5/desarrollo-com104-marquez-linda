@@ -1,0 +1,22 @@
+/*Ejercicio 3 - JQuery*/
+#mi-div { width: 800px; height: 70px; cursor: pointer;}
+  
+#mi-div img { width: 100%; height: auto;}
+  
+/*Ejercicio 4 - JQuery*/
+#div-ejer-4 {
+    background-color: #eaeaea;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  #div-ejer-4 p {
+    margin-bottom: 10px;
+  }
+  
+  #div-ejer4-imagen {
+    display: none;
+  }
+  
+
+  
