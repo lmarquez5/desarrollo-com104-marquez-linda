@@ -1,0 +1,190 @@
+@font-face {font-family: Nunito-Black; src: url(/fonts/Nunito/static/Nunito-Black.ttf);}
+@font-face {font-family: Nunito-Regular; src: url(/fonts/Nunito/static/Nunito-Regular.ttf);}
+@font-face {font-family: Nunito-ExtraLigth; src: url(/fonts/Nunito/static/Nunito-ExtraLight.ttf);}
+@font-face {font-family: Nunito-Medium; src: url(/fonts/Nunito/static/Nunito-Medium.ttf);}
+@font-face {font-family: Nunito-Bold; src: url(/fonts/Nunito/static/Nunito-Bold.ttf);}
+@font-face {font-family: OpenSans-Regular; src: url(/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);}
+@font-face {font-family: OpenSans-Bold; src: url(/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf);}
+
+@media screen and (min-width: 768px) {
+    header {
+      margin: 0 200px;
+    }
+    body {
+        margin: 0 200px;
+      }
+    #CDM h2{
+      margin: 0 200px;
+    }
+    
+  }
+
+/* GENERAL*/
+h5 {font-size: 12px;}
+h3 {font-size: 28px; }
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000; 
+    text-decoration: none;
+  }
+  
+  .login a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #E21982;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+/* CADA DÍA MEJOR*/
+#CDM {
+    background-image: url(/images/banner-principal.jpg);
+    height: fit-content; padding: 25px;
+    text-align: center; color: #FFFFFF;
+}
+    h1 {
+        font-family: Nunito-Black; font-weight: 900; font-size: 40px;
+        line-height: 100px; text-align: center;
+    }
+    h2 {
+        padding: 25px;
+        font-family: OpenSans-Regular; font-size: 22px;
+    }
+    #Comenzar_1 {
+        font-family: Nunito-Bold; font-size: 22px;
+        line-height: 30px; text-align: center;
+        margin-top: 20px;
+        color: white; background: #E21982;
+        border-radius: 50px; border-color: #E21982;
+    }
+
+
+      
+      @media screen and (min-width: 768px) {
+        #quienes_somos {
+          width: 100%;
+          float: center;
+          margin-right: 200px;
+          margin-bottom: 0;
+        }
+      
+}
+
+/* QUIENES SOMOS*/
+
+#quienes_somos{
+  text-align: center;
+  padding: 2% 20%;
+  background-color: #e8e8e8;
+}
+
+/* BUSCAR AYUDA*/
+
+#buscar_ayuda{
+    background-color: #FFFFFF;
+    height: fit-content;
+    text-align: center;
+    padding: 50px 200px; 
+    
+}
+
+/* SUMARTE */
+#sumarte{
+    height: fit-content; padding: 25px 100px;
+    background-color: #E21982;
+    text-align: center;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+    font-family: Nunito-Black;
+    
+}
+/* PREGUNTAS FRECUENTES*/
+#preguntas_frecuentes {
+  text-align: center;
+  background-color: #e8e8e8;
+  padding: 2% 20%;
+}
+
+.btn.btn-primary.d-lg-grid {
+  color: #000;
+  font-family: OpenSans-Bold;
+  font-size: 16px;
+  background-color: #fff;
+  border-color: #fff;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+.bi.bi-caret-down-fill.ms-auto{
+  color: #E21982;
+}
+
+
+/* COMENZAR*/
+
+#comenzar {
+  background-image: url(/images/banner-secundario.jpg);
+  height: fit-content;
+  padding: 20px;
+  text-align: center;
+  font-family: Nunito-Black;
+  color: #fff;
+  font-size: 28px;
+}
+
+/* FOOTER */
+footer{
+  text-align: center;
+  background-color: #22193F;
+  color: white;
+}
+
+footer i{
+  color: white;
+  height: 50px;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
